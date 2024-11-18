@@ -157,7 +157,7 @@ namespace Отработки_основ_программирования
         static void Task4()
         {
             Console.Clear();
-            Console.WriteLine("Задача 12: Имя файла из пути ");
+            Console.WriteLine("Задача 4: Имя файла из пути ");
             string path = GetString("Введите путь к файлу: ");
             try
             {
@@ -293,7 +293,7 @@ namespace Отработки_основ_программирования
         static void Task10()
         {
             Console.Clear();
-            Console.WriteLine("Задача 11: Пирамида чисел (Вариант 11)");
+            Console.WriteLine("Задача 10: Пирамида чисел (Вариант 11)");
 
             int numLevels = GetPositiveInt("Введите количество уровней пирамиды: ");
             if (numLevels <= 0) return; 

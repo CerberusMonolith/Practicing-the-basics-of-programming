@@ -154,27 +154,21 @@ namespace Отработки_основ_программирования
             Console.WriteLine("Задача завершена...");
         }
 
-        static void Task4()
-        {
-            Console.Clear();
-            Console.WriteLine("Задача 4: Имя файла из пути ");
-            string path = GetString("Введите путь к файлу: ");
-            try
-            {
-                string fileName = Path.GetFileName(path);
-                if (fileName != null) Console.WriteLine($"Имя файла: {fileName}");
-                else Console.WriteLine("Неверный путь.");
-            }
-            catch (ArgumentException)
-            {
-                Console.WriteLine("Некорректный путь.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Ошибка: {ex.Message}");
-            }
-            Console.WriteLine("Задача завершена...");
-        }
+       static void Task4()
+ {
+     Console.Clear(); Console.WriteLine("Задача 4: Определение имени файла по пути.");
+     Console.Write("Введите путь к файлу: ");
+     string path = Console.ReadLine();
+     if (File.Exists(path))
+     {
+         string fileName = Path.GetFileName(path); Console.WriteLine($"Имя файла: {fileName}");
+     }
+     else
+     {
+         throw new FileNotFoundException("Файл не найден.");
+     }
+     WaitForKey();
+ }
 
         static void Task5()
         {
@@ -391,5 +385,9 @@ namespace Отработки_основ_программирования
             Console.Write(prompt);
             return Console.ReadLine();
         }
+        static void WaitForKey()
+{
+    Console.WriteLine("Задача завершена, нажмите на любую клавишу, чтобы вернуться к списку задач"); Console.ReadKey();
+}
     }
 }

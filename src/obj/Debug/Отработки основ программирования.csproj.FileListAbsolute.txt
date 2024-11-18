@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\Laz\Отработки основ программирования\bin\Debug\Отработки основ программирования.exe.config
+C:\Users\user\Desktop\Laz\Отработки основ программирования\bin\Debug\Отработки основ программирования.exe
+C:\Users\user\Desktop\Laz\Отработки основ программирования\bin\Debug\Отработки основ программирования.pdb
+C:\Users\user\Desktop\Laz\Отработки основ программирования\obj\Debug\Отработки основ программирования.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Laz\Отработки основ программирования\obj\Debug\Отработки основ программирования.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Laz\Отработки основ программирования\obj\Debug\Отработки основ программирования.exe
+C:\Users\user\Desktop\Laz\Отработки основ программирования\obj\Debug\Отработки основ программирования.pdb
